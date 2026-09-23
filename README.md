@@ -1,4 +1,4 @@
-# 🎬 Latest Movies Dataset Analysis (2025)
+# Latest Movies Dataset Analysis (2025)
 
 ## 📌 Project Overview
 This project analyzes a dataset of the latest movies releasing around the year 2025. The dataset includes movie details such as title, release date, language, popularity score, ratings, and vote count.  
