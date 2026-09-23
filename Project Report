@@ -1,0 +1,85 @@
+PROJECT REPORT
+Latest Movies Dataset Analysis (2025)
+Data Analysis using Python, Pandas, Matplotlib and Jupyter Notebook
+1. Abstract
+This project performs exploratory data analysis on a dataset of latest movies around the year 2025. The analysis examines movie release dates, original languages, popularity, ratings, and vote counts. Python is used in a Jupyter Notebook to load, clean, transform, analyze, and visualize the data. The project focuses on understanding how release month and original language relate to movie popularity and ratings, and on examining the relationship between popularity and ratings.
+2. Introduction
+Movie datasets contain useful information that can be analyzed to discover patterns in audience interest and movie performance. This project uses the file 'Latest 2025 Movies Datasets.csv' and analyzes the columns title, release_date, original_language, popularity, vote_average, and vote_count.
+3. Problem Statement
+The project aims to understand whether movie popularity and ratings vary according to release month and original language, and whether highly rated movies are necessarily highly popular.
+4. Research Question
+How do the release month and original language affect movie popularity and ratings, and what is the relationship between popularity and ratings?
+5. Objectives
+•	Load and inspect the movie dataset.
+•	Check data types, missing values, and basic statistics.
+•	Convert release dates into a proper datetime format.
+•	Extract year and month from the release date.
+•	Clean rows with missing release date, popularity, or rating values.
+•	Analyze movie popularity and rating distributions.
+•	Analyze the number of movies by original language.
+•	Compare average ratings across commonly represented languages.
+•	Compare average popularity and movie counts across release months.
+•	Study the relationship between popularity and ratings using correlation and visualizations.
+•	Identify highly popular and highly rated movies using the available vote-count filter.
+6. Tools and Technologies
+Tool / Library	Purpose
+Jupyter Notebook	Development and analysis environment
+Python	Main programming language
+Pandas	Data loading, cleaning, transformation, grouping and analysis
+Matplotlib	Charts and visualizations
+7. Dataset Description
+Dataset filename: Latest 2025 Movies Datasets.csv
+Main columns used:
+•	title
+•	release_date
+•	original_language
+•	popularity
+•	vote_average
+•	vote_count
+8. Methodology
+1. Import Pandas and Matplotlib and enable inline plotting.
+2. Load the CSV file into a Pandas DataFrame.
+3. Inspect the dataset with info() and describe().
+4. Convert release_date to datetime, coercing invalid dates to missing values.
+5. Create year and month columns from release_date.
+6. Check missing values using isna().sum().
+7. Create a cleaned DataFrame by removing rows missing release_date, popularity, or vote_average.
+8. Perform exploratory analysis using histograms, bar charts, a scatter plot, and a correlation matrix/heatmap.
+9. Identify the top 10 popular movies.
+10. For top-rated analysis, keep movies with at least 50 votes and then sort by vote_average.
+9. Analysis and Visualizations
+•	Distribution of Movie Popularity: shows how popularity values are distributed.
+•	Distribution of Movie Ratings: shows the spread of average movie ratings.
+•	Top 10 Languages by Number of Movies: shows the most common original languages.
+•	Average Rating by Original Language: compares average ratings for languages represented by at least 20 movies.
+•	Average Popularity by Release Month: compares mean popularity across months.
+•	Number of Movies Released by Month: shows the release volume for each month.
+•	Popularity vs Rating: scatter plot used to visually examine the relationship between rating and popularity.
+•	Correlation Matrix and Heatmap: measures linear relationships among numeric variables.
+•	Top Popular Movies: lists the 10 movies with the highest popularity values.
+•	Top Rated Movies: lists the 10 highest-rated movies among movies with at least 50 votes.
+10. Key Findings
+•	Most movie ratings are concentrated between approximately 5 and 7 according to the project README.
+•	The README reports that popularity is highest for movies released in July, September, and October.
+•	English is reported as the most common original language.
+•	The project reports a weak relationship between popularity and ratings.
+•	A high rating does not necessarily correspond to high popularity in this dataset.
+•	The notebook uses a minimum of 50 votes when selecting top-rated movies to reduce the effect of movies with very few votes.
+11. Conclusion
+The project demonstrates how Python-based exploratory data analysis can be used to understand movie datasets. The analysis indicates that popularity cannot be explained by ratings alone. Release timing, language representation, audience interest, and other factors can be associated with popularity. The project provides a practical workflow covering data loading, cleaning, transformation, visualization, correlation analysis, and ranking.
+12. Project Structure
+•	Latest 2025 Movies Datasets.csv – dataset used for analysis.
+•	Advance_Task (3).ipynb – Python/Jupyter Notebook containing the analysis code.
+•	requirements.txt – Python packages required to run the notebook.
+•	Readme (1).md – project overview, research question, tools, steps and key insights.
+•	Project_Report.docx – this project report.
+13. Upload Checklist for the Form Shown
+Form Field	File to Upload	Status
+Code File *	Advance_Task (3).ipynb	Available
+Requirements File *	requirements.txt	Created
+Project Report	Project_Report.docx	Created
+README File *	Readme (1).md	Available
+Note: The notebook itself is the code file. The requirements.txt file lists the packages needed by the uploaded notebook. Jupyter/Notebook are included because the project is designed to run as a Jupyter Notebook.
+
+
+
